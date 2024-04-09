@@ -1,6 +1,6 @@
 # Task: Create a React project using OpenLayers
 
-Requirements:
+- Requirements:
 
 Render a map using OpenLayers.
 
@@ -18,7 +18,7 @@ Share the GitHub repository URL.
 
 Deploy the project on any platform and share the deployed version.
 
-Steps to accomplish the task:
+- Steps to accomplish the task:
 
 Set up a Next.js project with TypeScript.
 
