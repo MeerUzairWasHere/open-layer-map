@@ -1,40 +1,60 @@
-# Task: Create a React project using OpenLayers
+# React OpenLayers Map with Drawing Tools
 
-- Requirements:
+This project is a React application built with Next.js and TypeScript, featuring an interactive map powered by OpenLayers. Users can add points, lines, and polygons on the map and also calculate measurements like area and length.
 
-Render a map using OpenLayers.
+## Features
 
-Allow users to locate a pinpoint on the map.
+- **Interactive Map**: Render a dynamic map using OpenLayers, allowing users to explore and interact with various map layers.
+  
+- **Drawing Tools**: Implement drawing functionalities using OpenLayers interactions to add points, lines, and polygons to the map.
 
-Implement functionality to draw a polygon, point, and line on the map.
+- **Measurement Calculations** (Optional): Enable users to measure distances (for lines) and areas (for polygons) directly on the map.
 
-Optionally, calculate measurements (e.g., area for polygon, length for line) (Additional point).
+## Tech Stack
 
-Implement the project using Next.js and TypeScript (Additional point).
+- **React**: Front-end library for building UI components.
+  
+- **Next.js**: React framework for server-side rendering and routing.
+  
+- **TypeScript**: Superset of JavaScript providing static typing.
+  
+- **OpenLayers**: Library for interactive maps and geospatial data visualization.
 
-Document the code with comments.
+## Usage
 
-Share the GitHub repository URL.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/MeerUzairWasHere/open-layer-map.git
+   ```
 
-Deploy the project on any platform and share the deployed version.
+2. **Install Dependencies**:
+   ```bash
+   cd open-layer-map
+   npm install
+   ```
 
-- Steps to accomplish the task:
+3. **Run the Development Server**:
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-Set up a Next.js project with TypeScript.
+## Project Structure
 
-Integrate OpenLayers into the project.
+- **`pages/`**: Contains Next.js page components.
+  
+- **`components/`**: Reusable React components used throughout the application.
+  
+- **`styles/`**: Global CSS styles and utility classes.
 
-Render a map using OpenLayers Map component.
+- **`public/`**: Static assets such as images and icons.
 
-Implement functionality to allow users to locate a pinpoint on the map.
+- **`utils/`**: Helper functions and utilities.
 
-Implement drawing functionality for polygon, point, and line using OpenLayers interaction tools.
+## Deployment
 
-Optionally, implement measurement calculation functionality.
+The project is deployed on [Vercel](https://vercel.com/) for live preview. You can access the deployed version here: [Live Demo](https://open-layer-interview-task.vercel.app/)
 
-Document the code with comments explaining key functionalities and components.
+## Contributing
 
-Push the code to a GitHub repository.
-
-Deploy the project on a platform like Vercel, Netlify, or GitHub Pages.
-Share the GitHub repository URL and the deployed version URL.
+Contributions are welcome! Feel free to submit issues and pull requests.
